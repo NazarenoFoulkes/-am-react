@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './styles/styles.css'; // Importar el archivo CSS desde la carpeta styles
+import Header from './components/Header';
+import Home from './components/Home';
+import Speciality from './components/Speciality';
+import Steps from './components/Steps';
+import Gallery from './components/Gallery';
+import Review from './components/Review';
+import Order from './components/Order';
+import Footer from './components/Footer';
+import { NavbarProvider } from './context/NavbarContext'; // Importa el proveedor
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <NavbarProvider>
+    <>
+      <Header />
+      <Home />
+      <Speciality />
+      <Steps />
+      <Gallery />
+      <Review />
+      <Order />
+      <Footer />
+    </>
+  </NavbarProvider>
+);
 
 export default App;
