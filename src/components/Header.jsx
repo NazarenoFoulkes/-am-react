@@ -16,7 +16,6 @@ const Header = () => {
       <nav className={`navbar ${isNavbarOpen ? 'open' : ''}`}>
         <Link to="#home">Inicio</Link>
         <Link to="#speciality">Especialidad</Link>
-        <Link to="#gallery">Galería</Link>
         <Link to="#review">Reseñas</Link>
         <Link to="#order">Ordená</Link>
       </nav>

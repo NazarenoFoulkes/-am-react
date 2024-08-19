@@ -17,7 +17,7 @@ const Review = () => (
           <i className="fas fa-star"></i>
           <i className="fas fa-star-half-alt"></i>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, debitis.</p>
+        <p>¡Las hamburguesas llegaron rápidamente y estaban deliciosas! El pedido online fue fácil de hacer, y la calidad de la comida superó mis expectativas. ¡Perfecto para disfrutar en casa!</p>
       </div>
       <div className="box">
         <img src={pic2} alt="Review" />
@@ -29,7 +29,7 @@ const Review = () => (
           <i className="fas fa-star"></i>
           <i className="fas fa-star"></i>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, debitis.</p>
+        <p>Excelente servicio y hamburguesas increíbles. La página web es muy intuitiva y el proceso de compra es sencillo. La comida llegó bien empaquetada y estaba caliente. ¡Volveré a pedir!</p>
       </div>
       <div className="box">
         <img src={pic3} alt="Review" />
@@ -41,7 +41,7 @@ const Review = () => (
           <i className="fas fa-star"></i>
           <i className="fas fa-star-half-alt"></i>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, debitis.</p>
+        <p>na experiencia de compra online sin complicaciones. Las hamburguesas estaban frescas y sabrosas, y el tiempo de entrega fue justo lo que prometieron. ¡Una opción fantástica para disfrutar de buenas hamburguesas sin salir de casa!</p>
       </div>
     </div>
   </section>
