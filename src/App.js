@@ -4,7 +4,6 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Speciality from './components/Speciality';
 import Steps from './components/Steps';
-import Gallery from './components/Gallery';
 import Review from './components/Review';
 import Order from './components/Order';
 import Footer from './components/Footer';
@@ -17,7 +16,6 @@ const App = () => (
       <Home />
       <Speciality />
       <Steps />
-      <Gallery />
       <Review />
       <Order />
       <Footer />
