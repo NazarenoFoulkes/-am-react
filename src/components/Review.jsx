@@ -41,7 +41,7 @@ const Review = () => (
           <i className="fas fa-star"></i>
           <i className="fas fa-star-half-alt"></i>
         </div>
-        <p>na experiencia de compra online sin complicaciones. Las hamburguesas estaban frescas y sabrosas, y el tiempo de entrega fue justo lo que prometieron. ¡Una opción fantástica para disfrutar de buenas hamburguesas sin salir de casa!</p>
+        <p>Una experiencia de compra online sin complicaciones. Las hamburguesas estaban frescas y sabrosas, y el tiempo de entrega fue justo lo que prometieron. ¡Una opción fantástica para disfrutar de buenas hamburguesas sin salir de casa!</p>
       </div>
     </div>
   </section>
