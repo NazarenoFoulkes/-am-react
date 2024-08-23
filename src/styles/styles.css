@@ -63,7 +63,7 @@ section{
   }
 
 body{
-    background: #f7f7f7;
+  background: linear-gradient(to bottom right, black, grey);
 }
 header{
     display: flex;
@@ -73,12 +73,12 @@ header{
     position: fixed;
     top: 0;left: 0;right: 0;
     z-index: 1000;
-    background: #fff;
+    background: linear-gradient(to bottom right, black, grey);
 }
 header .logo{
  font-size: 2.5rem;
  font-weight: bolder;
- color: #666;
+ color: #f7f7f7;
 }
 header .logo i{
     padding-right: 10px;
@@ -87,7 +87,7 @@ header .logo i{
 header nav a{
     font-size: 2rem;
     margin-right: 3rem;
-    color: #666;
+    color: #f7f7f7;
 }
 header nav a:hover{
     color: var(--red);
@@ -95,8 +95,8 @@ header nav a:hover{
 #menu-bar{
     cursor: pointer;
     font-size: 3rem;
-    border: .1rem solid #666;
-    color: #666;
+    border: .1rem solid #f7f7f7;
+    color: #f7f7f7;
    border-radius: .3rem;
     padding: .5rem 1.5rem;
     display: none;
@@ -110,7 +110,7 @@ header nav a:hover{
     gap: 1.5rem;
     min-height: 100vh;
     align-items: center;
-    background: url('../images/home-bg.jpg') no-repeat;
+    background: url(/public/2343.jpg) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -134,11 +134,11 @@ header nav a:hover{
 
 .home .content h3{
     font-size: 5rem;
-    color: #333;
+    color: #f7f7f7;
 }
 .home .content p{
     font-size: 2rem;
-    color: #666;
+    color: #f7f7f7;
 }
 
 /* Home style End */
@@ -151,7 +151,7 @@ header nav a:hover{
   text-align: center;
   font-size: 3.5rem;
   padding: 1rem;
-  color: #666;
+  color: #f7f7f7;
 }
 
 .heading span {
@@ -166,24 +166,24 @@ header nav a:hover{
 }
 
 .speciality .box-container .box {
-  flex: 1 1 30rem; /* Ajusta el tamaño base del contenedor */
+  flex: 1 1 30rem; 
   position: relative;
   overflow: hidden;
   box-shadow: 0 0.5rem 0.1rem rgba(0, 0, 0, 0.1);
   border: 0.3rem solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  transition: box-shadow 0.3s; /* Suaviza la transición del efecto hover si es necesario */
-  height: 30rem; /* Altura fija para las tarjetas */
+  transition: box-shadow 0.3s; 
+  height: 30rem; 
   display: flex;
-  flex-direction: column; /* Asegura que el contenido se alinee verticalmente */
+  flex-direction: column; 
 }
 
 .speciality .box-container .box .image {
   width: 100%;
-  height: 100%; /* Ajusta la imagen para que ocupe el 60% superior de la tarjeta */
-  object-fit: cover; /* Ajusta la imagen para cubrir el contenedor manteniendo la relación de aspecto */
-  transition: opacity 0.5s; /* Suaviza la transición de la opacidad si es necesario */
-  z-index: 1; /* Mantén la imagen por debajo del contenido */
+  height: 100%; 
+  object-fit: cover; 
+  transition: opacity 0.5s; 
+  z-index: 1; 
 }
 
 .speciality .box-container .box .price {
@@ -195,35 +195,34 @@ header nav a:hover{
   font-size: 2rem;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
-  z-index: 2; /* Asegura que el precio esté por encima de la imagen */
+  z-index: 2; 
 }
 
 .speciality .box-container .box .content {
-  flex: 1; /* Hace que el contenido ocupe el espacio restante */
+  flex: 1; 
   text-align: center;
   padding: 2rem;
   background: #fff;
-  position: absolute; /* Coloca el contenido sobre la imagen */
-  bottom: 0; /* Coloca el contenido en la parte inferior */
-  width: 100%; /* Asegura que el contenido tenga el mismo ancho que la tarjeta */
-  height: 100%; /* Ajusta la altura del contenido */
-  transform: translateY(100%); /* Coloca el contenido debajo de la tarjeta inicialmente */
-  transition: transform 0.5s, opacity 0.5s; /* Suaviza la transición del contenido */
-  opacity: 0; /* Hace que el contenido sea invisible inicialmente */
-  z-index: 2; /* Asegura que el contenido esté por encima de la imagen */
+  position: absolute; 
+  bottom: 0; 
+  width: 100%; 
+  height: 100%;
+  transform: translateY(100%); 
+  transition: transform 0.5s, opacity 0.5s; 
+  opacity: 0; 
+  z-index: 2; 
 }
-
 .speciality .box-container .box:hover .content {
-  transform: translateY(0); /* Mueve el contenido a la vista cuando se hace hover */
-  opacity: 1; /* Hace que el contenido sea visible */
+  transform: translateY(0); 
+  opacity: 1; 
 }
 
 .speciality .box-container .box:hover .image {
-  opacity: 0.5; /* Reduce la opacidad de la imagen cuando se hace hover para destacar el contenido */
+  opacity: 0.5; 
 }
 
 .speciality .box-container .box .content .emoji {
-  font-size: 4rem; /* Ajusta el tamaño del emoji */
+  font-size: 4rem; 
   margin: 1.5rem 0;
 }
 
@@ -239,7 +238,7 @@ header nav a:hover{
 }
 
 .speciality .box-container .box:hover {
-  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2); /* Añade sombra al hacer hover sobre la tarjeta */
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2); 
 }
 
 
@@ -310,7 +309,7 @@ header nav a:hover{
   }
   .steps .box h3{
     font-size: 2rem;
-    color:#333;
+    color:#f7f7f7;
     padding:1rem;
   }
 
@@ -413,7 +412,7 @@ header nav a:hover{
 .order .row{
     padding:2rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    background:#fff;
+    background: grey;
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
